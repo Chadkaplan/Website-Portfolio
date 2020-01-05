@@ -9,7 +9,18 @@ footer {
   }
   .headerContainer{
     display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 100px 100px;
   }
   .aboutContainer{
     display: grid;
+  }
+  .banner{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .navbar{
+    float: right;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
