@@ -7,3 +7,9 @@ footer {
     color: white;
     text-align: center;
   }
+  .headerContainer{
+    display: grid;
+  }
+  .aboutContainer{
+    display: grid;
+  }
