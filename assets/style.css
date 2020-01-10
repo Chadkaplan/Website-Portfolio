@@ -29,3 +29,6 @@ footer {
     grid-template-columns: auto;
    justify-content: right;
   }
+  .cent{
+    align-items: center;
+  }
