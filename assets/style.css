@@ -2,7 +2,7 @@ html{
   /* Might change some of the body to this object */
 }
 body{
-  color: #7c795d;
+  color: beige;
   font-family: 'Trocchi', serif;
   background-image: url("./images/CodingBackgroundImage.jpg");
   background-size: cover;
@@ -29,7 +29,6 @@ footer {
   .nameBanner{
     grid-column-start: 1;
     grid-column-end: 4;
-    color: #7c795d;
     font-family: 'Trocchi', serif;
     font-size: 45px;
     font-weight: normal;
@@ -68,6 +67,11 @@ border-radius: 25px;
     margin-left: 50px;
     margin-right: 20px;
     width: 650px;
+    background-color: rgb(105,105,105, .8);
+    height: min-content;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1.1rem;
   }
 
   #aboutMe{
