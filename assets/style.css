@@ -74,7 +74,7 @@ border-radius: 25px;
     font-size: 1.1rem;
   }
 
-  #aboutMe{
+  .categoryBanner{
     margin-left: 50px;
   }
 
@@ -82,4 +82,12 @@ border-radius: 25px;
   .input{
     width: 950px;
     margin: 0 auto;
+}
+.adjustMid{
+  /* align-content: center;  */
+  text-align: center;
+}
+.messageContainer{
+  width: 40vw;
+  height: 40vh;
 }
