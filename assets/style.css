@@ -1,11 +1,11 @@
-html{
-  /* Might change some of the body to this object */
-}
+/* html{
+  Might change some of the body to this object
+} */
 body{
   color: beige;
   font-family: 'Trocchi', serif;
   background-image: url("./images/CodingBackgroundImage.jpg");
-  background-size: cover;
+  background-size: 100%;
 }
 footer {
     position: fixed;
