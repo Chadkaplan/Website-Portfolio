@@ -76,6 +76,11 @@ border-radius: 25px;
 
   .categoryBanner{
     margin-left: 50px;
+    background-color: rgb(105,105,105, .8);
+    height: min-content;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px;
   }
 
   /* Contact */
@@ -90,4 +95,15 @@ border-radius: 25px;
 .messageContainer{
   width: 40vw;
   height: 40vh;
+}
+#messageInput{
+
+}
+
+/* Projects */
+
+.projectsContainer{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
 }
