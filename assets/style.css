@@ -15,6 +15,7 @@ footer {
     background-color:#1966de;
     color: white;
     text-align: center;
+    margin-top: 20px;
   }
   /* .headerContainer{
     display: grid;
@@ -97,7 +98,17 @@ border-radius: 25px;
   height: 40vh;
 }
 #messageInput{
-
+resize: none;
+padding: 5px;
+}
+#contactFormSubmit{
+  border-radius: 25px;
+}
+.contactInput{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 /* Projects */
@@ -105,5 +116,13 @@ border-radius: 25px;
 .projectsContainer{
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 200px, repeat(2, auto);
 }
+#projectsBanner{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1;
+}
+/* #project-1{
+  grid-row-start: 2;
+} */
