@@ -117,11 +117,16 @@ padding: 5px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: 200px, repeat(2, auto);
+  align-items: center;
 }
 #projectsBanner{
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row: 1;
+}
+.projectPic{
+  margin: 10px;
+  justify-self: center;
 }
 /* #project-1{
   grid-row-start: 2;
