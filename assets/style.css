@@ -85,31 +85,34 @@ border-radius: 25px;
   }
 
   /* Contact */
-  .input{
-    width: 950px;
-    margin: 0 auto;
+.contactContainer{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: ;
+}
+#linkedinHeader{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+#githubHeader{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.socialLink{
+  width: 24px;
 }
 .adjustMid{
   /* align-content: center;  */
   text-align: center;
 }
-.messageContainer{
-  width: 40vw;
-  height: 40vh;
+.blackLink:link{
+color: black;
 }
-#messageInput{
-resize: none;
-padding: 5px;
-}
-#contactFormSubmit{
-  border-radius: 25px;
-}
-.contactInput{
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  padding: 5px;
-}
+
 
 /* Projects */
 
@@ -131,3 +134,17 @@ padding: 5px;
 /* #project-1{
   grid-row-start: 2;
 } */
+#openEmail{
+color: blue;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+
+}
