@@ -88,7 +88,7 @@ border-radius: 25px;
 .contactContainer{
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: ;
+  grid-template-rows: repeat(2, 1fr 1fr);
 }
 #linkedinHeader{
   grid-column-start: 1;
@@ -104,6 +104,10 @@ border-radius: 25px;
 }
 .socialLink{
   width: 24px;
+}
+.socialContainer{
+  width: 24px;
+  margin: auto;
 }
 .adjustMid{
   /* align-content: center;  */
