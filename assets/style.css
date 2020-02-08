@@ -140,6 +140,10 @@ color: black;
   margin: 10px;
   justify-self: center;
 }
+.projectSize{
+  height: 150px;
+  width: 150px;
+}
 /* #project-1{
   grid-row-start: 2;
 } */
