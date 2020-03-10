@@ -9,3 +9,14 @@
   //   event.preventDefault();
   //   window.location.href = "mailto:chadkaplandev@gmail.com?subject=Subject&body=message%20goes%20here";
   // })
+
+  let num = 12
+  function Go(num) {
+    let answer = ""
+    for (let i = 0; i < num; i++){
+      answer += "-"
+    }
+  console.log(answer)
+  }
+
+  Go(num);
